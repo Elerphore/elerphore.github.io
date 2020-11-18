@@ -22,12 +22,11 @@ body {
 }
 .navigation {
 	z-index: 2;
-	background: rgb(9, 5, 83);
+	background: rgb(40, 63, 212);
 	background: linear-gradient(
 		90deg,
-		rgba(9, 5, 83, 1) 1%,
-		rgba(9, 9, 121, 1) 47%,
-		rgba(0, 212, 255, 1) 99%
+		rgba(40, 63, 212, 1) 0%,
+		rgba(35, 52, 184, 1) 53%
 	);
 	font-size: 18px;
 	position: fixed;
@@ -49,12 +48,11 @@ body {
 }
 
 .general {
-	background: rgb(9, 5, 83);
+	background: rgb(40, 63, 212);
 	background: linear-gradient(
 		90deg,
-		rgba(9, 5, 83, 1) 1%,
-		rgba(9, 9, 121, 1) 47%,
-		rgba(0, 212, 255, 1) 99%
+		rgba(40, 63, 212, 1) 0%,
+		rgba(35, 52, 184, 1) 53%
 	);
 	display: flex;
 	flex-direction: column;
@@ -189,12 +187,11 @@ body {
 }
 
 .footer {
-	background: rgb(9, 5, 83);
+	background: rgb(40, 63, 212);
 	background: linear-gradient(
 		90deg,
-		rgba(9, 5, 83, 1) 1%,
-		rgba(9, 9, 121, 1) 47%,
-		rgba(0, 212, 255, 1) 99%
+		rgba(40, 63, 212, 1) 0%,
+		rgba(35, 52, 184, 1) 53%
 	);
 	&__block {
 		display: flex;
@@ -212,6 +209,7 @@ body {
 					height: 16px;
 					width: 16px;
 					background-image: url(./img/vk.png);
+					margin-right: 6px;
 				}
 				& > p {
 					margin-left: 5px;

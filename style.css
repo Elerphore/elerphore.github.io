@@ -35,9 +35,9 @@ body {
 
 .navigation {
   z-index: 2;
-  background: #090553;
-  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #090553), color-stop(47%, #090979), color-stop(99%, #00d4ff));
-  background: linear-gradient(90deg, #090553 1%, #090979 47%, #00d4ff 99%);
+  background: #283fd4;
+  background: -webkit-gradient(linear, left top, right top, from(#283fd4), color-stop(53%, #2334b8));
+  background: linear-gradient(90deg, #283fd4 0%, #2334b8 53%);
   font-size: 18px;
   position: fixed;
   width: 100%;
@@ -66,9 +66,9 @@ body {
 }
 
 .general {
-  background: #090553;
-  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #090553), color-stop(47%, #090979), color-stop(99%, #00d4ff));
-  background: linear-gradient(90deg, #090553 1%, #090979 47%, #00d4ff 99%);
+  background: #283fd4;
+  background: -webkit-gradient(linear, left top, right top, from(#283fd4), color-stop(53%, #2334b8));
+  background: linear-gradient(90deg, #283fd4 0%, #2334b8 53%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,9 +260,9 @@ body {
 }
 
 .footer {
-  background: #090553;
-  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #090553), color-stop(47%, #090979), color-stop(99%, #00d4ff));
-  background: linear-gradient(90deg, #090553 1%, #090979 47%, #00d4ff 99%);
+  background: #283fd4;
+  background: -webkit-gradient(linear, left top, right top, from(#283fd4), color-stop(53%, #2334b8));
+  background: linear-gradient(90deg, #283fd4 0%, #2334b8 53%);
 }
 
 .footer__block {
@@ -299,6 +299,7 @@ body {
   height: 16px;
   width: 16px;
   background-image: url(./img/vk.png);
+  margin-right: 6px;
 }
 
 .footer__block > ul > li > p {
