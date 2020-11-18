@@ -1,0 +1,211 @@
+* {
+	list-style-type: none;
+	user-select: none;
+	font-family: "Roboto Mono", monospace;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+h2 {
+	margin-top: 0;
+}
+body {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+.image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.navigation {
+	background: rgb(9, 5, 83);
+	background: linear-gradient(
+		90deg,
+		rgba(9, 5, 83, 1) 1%,
+		rgba(9, 9, 121, 1) 47%,
+		rgba(0, 212, 255, 1) 99%
+	);
+	font-size: 18px;
+	position: fixed;
+	width: 100%;
+}
+.navigation > ul {
+	display: flex;
+	justify-content: flex-end;
+}
+.navigation > ul > li {
+	margin: 0px 70px 5px 0;
+	border-bottom: 3px solid transparent;
+	transition: all 0.3s;
+	height: 20px;
+	cursor: pointer;
+}
+.navigation > ul > li:hover {
+	border-bottom: 3px solid #7ccbe1ff;
+}
+
+.general {
+	background: rgb(9, 5, 83);
+	background: linear-gradient(
+		90deg,
+		rgba(9, 5, 83, 1) 1%,
+		rgba(9, 9, 121, 1) 47%,
+		rgba(0, 212, 255, 1) 99%
+	);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+	&__white {
+		background: #fff;
+		color: #000;
+	}
+	&__block {
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 90%;
+
+		&__image {
+			background-image: url(./img/blackdude.jpg);
+			background-size: 100%;
+			flex-basis: 40%;
+			height: 500px;
+		}
+		&__image__backend {
+			background-image: url(./img/nodejs.png);
+			background-size: 60%;
+			flex-basis: 40%;
+			height: 500px;
+		}
+		&__image__frontend {
+			background-image: url(./img/front-end.png);
+			background-size: 100%;
+			flex-basis: 40%;
+			height: 500px;
+		}
+		&__text {
+			flex-basis: 50%;
+			line-height: 33px;
+			font-size: 26px;
+			font-weight: bold;
+		}
+	}
+}
+
+.text-block-head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #000;
+	flex-basis: 400px;
+	margin-bottom: 100px;
+	& > h2 {
+		font-size: 48px;
+		font-weight: bold;
+	}
+	& > .text-block {
+		display: flex;
+		border: 3px solid #bebebe;
+		border-radius: 25px;
+		padding: 25px;
+		width: 85%;
+
+		& > ul {
+			font-size: 36px;
+			font-weight: bold;
+			& > li {
+				list-style-type: disc !important;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+.using-feuters {
+	text-align: center;
+	font-size: 24px;
+	color: #000;
+	margin-bottom: 50px;
+	&__block {
+		display: flex;
+	}
+}
+
+.list-icon-item {
+	background-size: 70%;
+	flex-basis: 30%;
+	height: 310px;
+}
+.js-icon {
+	background-image: url(./img/jsicon.png);
+}
+.html-icon {
+	background-image: url(./img/html.png);
+}
+.css-icon {
+	background-image: url(./img/css.png);
+}
+.vuejs-icon {
+	background-image: url(./img/vuejs.png);
+}
+.reactjs-icon {
+	background-image: url(./img/react.png);
+}
+.mongo-icon {
+	background-image: url(./img/mongodb.png);
+}
+.mysql-icon {
+	background-image: url(./img/mysql.png);
+}
+.php-icon {
+	background-image: url(./img/php.png);
+}
+.nodejs-icon {
+	background-image: url(./img/nodejs.png);
+}
+.ruby-icon {
+	background-image: url(./img/ruby.png);
+}
+
+.footer {
+	background: rgb(9, 5, 83);
+	background: linear-gradient(
+		90deg,
+		rgba(9, 5, 83, 1) 1%,
+		rgba(9, 9, 121, 1) 47%,
+		rgba(0, 212, 255, 1) 99%
+	);
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		& > ul {
+			display: flex;
+			& > li {
+				cursor: pointer;
+				margin-left: 20px;
+				word-spacing: -5.5px;
+				display: flex;
+				align-items: center;
+				& > div {
+					height: 16px;
+					width: 16px;
+					background-image: url(./img/vk.png);
+				}
+				& > p {
+					margin-left: 5px;
+				}
+			}
+		}
+		& > p {
+			margin-right: 40px;
+		}
+	}
+}
