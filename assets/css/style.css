@@ -1,0 +1,61 @@
+a.svg {
+    position: relative;
+    display: inline-block; 
+}
+
+a.svg:after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+}
+
+@font-face {
+    font-family: StaatlichesRegular;
+    src: url("../fonts/Staatliches-Regular.ttf");
+}
+
+* {
+    font-family: StaatlichesRegular;
+}
+
+div {
+    color: white;
+}
+
+body {
+    height: 98vh;
+    display: flex;  
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.content-block {
+    flex-basis: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    display: grid;
+    border-radius: 35px;
+}
+.content-block {
+    
+}
+
+.content-block__title {
+    font-size: 26pt;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.content-block__content {
+    font-size: 18pt;
+    text-align: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.content-block__content > a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
