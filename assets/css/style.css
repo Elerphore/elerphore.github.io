@@ -38,9 +38,6 @@ body {
     display: grid;
     border-radius: 35px;
 }
-.content-block {
-    
-}
 
 .content-block__title {
     font-size: 26pt;
@@ -53,6 +50,17 @@ body {
     text-align: center;
     justify-content: space-between;
     flex-basis: 100%;
+}
+
+.content-block__content > p {
+    font-size: 20pt;
+    padding: 0;
+    margin: 0;
+    word-spacing:  5px;
+}
+
+.content-block__content > p > span {
+    font-style: oblique;
 }
 
 .content-block__content > a {
